@@ -3,7 +3,7 @@ const { default: Box } = require("@truffle/box");
 const { Environment } = require("@truffle/environment");
 const sinon = require("sinon");
 
-describe("Environment develop", function () {
+describe.skip("Environment develop", function () {
   let config;
 
   const expectedNetwork = {
